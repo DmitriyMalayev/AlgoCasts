@@ -8,6 +8,24 @@
 //   reverseInt(-15) === -51
 //   reverseInt(-90) === -9
 
+
+
+
+
+//Result should be a number not a string
+const myNumber = 200
+myNumber.toString().split("").join("") //returns a string version of the number  "200"
+
+
+
+
+
+
+
+
+
+
+
 function reverseInt(n) {
   const reversed = n
     .toString()
