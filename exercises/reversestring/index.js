@@ -7,10 +7,10 @@
 //   reverse('Greetings!') === '!sgniteerG'
 
 function reverse(str) {
-  debugger
-  return str.split("").reverse().join(""); 
+  debugger;
+  return str.split("").reverse().join("");
 }
-reverse("hello")
+reverse("hello");
 
 // function secondReverse(str) {
 //   let reversed = "";
@@ -45,9 +45,6 @@ apple
 
 // thirdReverse("asdf")
 
-
-
 module.exports = reverse;
- 
 
-// .reduce takes two arguments, an arrow function and a starting value. 
+// .reduce takes two arguments, an arrow function and a starting value.
